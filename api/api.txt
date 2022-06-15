@@ -1,0 +1,19 @@
+- Traer todos los eventos
+URL: http://localhost/api/eventos
+Accion: GET
+
+
+-Traer eventos de un jugador
+URL: http://localhost/api/eventos/1
+Accion: GET
+
+
+-Agregar jugador a eventos
+URL: http://localhost/api/eventos
+Accion: PATCH
+Body: 
+{
+    "idE" : "6188a39f4421f2d9073f6fca",
+    "idJ" : 3
+}
+
