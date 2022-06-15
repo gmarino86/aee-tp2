@@ -15,7 +15,6 @@ export function JugadorProvider(props) {
             console.log(data)
             setJugadores(data[0].jugadores)
         })
-    // eslint-disable-next-line
     },[])
 
     return (
